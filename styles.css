@@ -12,4 +12,10 @@ h2{
 h3{
 	font-size: 40pt;
 }
- }
+div{
+	width: 30%;
+	border:black, 2px;
+	position:left;
+
+}
+}
