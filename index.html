@@ -5,6 +5,109 @@
    type="text/css">
    <script src="script.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<style type="text/css">
+    span.highlight {background-color:red;}
+    </style>
+    <script>
+    var height;
+    var width;
+    var spans = document.getElementsByTagName("span");
+    var i = 0;
+    var timePerChar = 100;
+
+    function getPositionOfElement(el) {
+        var elw =  el.offsetWidth;
+        var elh =  el.offsetHeight;
+        // yay readability
+        for (var lx=0, ly=0;
+             el != null;
+             lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
+        return {x: lx,y: ly,w: elw, h: elh};
+    }
+
+    function highlightElements() {
+        //alert(spans[i].innerHTML.length);
+        var highlightSpeed = timePerChar * spans[i].innerHTML.length;
+        spans[i].setAttribute("class", "highlight");
+        var objInfo = new Object();
+        var nxtObjInfo = new Object();
+        objInfo = getPositionOfElement(spans[i]);
+        nxtObjInfo = getPositionOfElement(spans[i+1]);
+        var amt = (objInfo.x + objInfo.w + 50);
+        console.log(amt);
+        console.log(width);
+        if(amt >= width && objInfo.x > nxtObjInfo.x){
+            console.log('SCROLL ' +objInfo.h+ ' ');
+            window.scrollBy(0,objInfo.h);
+        }
+        setTimeout('unHighlight()', highlightSpeed);
+    }
+
+    function unHighlight (){
+        spans[i].removeAttribute("class");
+        i++;
+        if(i < spans.length) {
+            highlightElements();
+        }
+    }
+
+    // This is just a namespace 
+    var CIRRO = function(){ 
+     return { 
+      /** 
+       * Initialize the page behaviors 
+       */ 
+      init : function() { 
+       CIRRO.wrapWordsWithSpan(); 
+      },   
+      /** 
+       * Replace the contents of each paragraph with span wrapped words 
+       */ 
+      wrapWordsWithSpan : function() { 
+       var paragraphs = document.getElementsByTagName("p");
+       //alert(paragraphs.length);
+       if(!paragraphs ) return; 
+       var j = 0;
+       while(j < paragraphs.length) {
+            // Parse the text into an array 
+           var arr = paragraphs[j].innerHTML.split(" "); 
+           // Generate span's for each item/word in the array 
+           for( var i = 0; i < arr.length; i++ ) { 
+            arr[i] = "<span>" + arr[i] + "</span>"; 
+           }    
+           paragraphs[j].innerHTML = arr.join(" "); 
+           //alert(paragraphs[j].innerHTML); 
+           j++
+       }
+      } 
+     }; 
+    }(); 
+    window.onload = CIRRO.init; 
+    </script>
+    </head>
+    <body id="body">
+    <input type="button" onclick="highlightElements();" value="Get selected elements" />
+    <p>Test test test test test Test test test test test Test test test test test Test 
+test test test test Test test test test test Test test test test test Test test test test 
+test Test test test test test Test test test test test Test test test test test Test test 
+test test test Test test test test test Test test test test test Test test test test test 
+Test test test test test Test test test test test Test test test test test Test test test 
+test test</p>
+    <script>
+    var test = document.getElementById("body");
+    height = (test.clientHeight + 1);
+    width = (test.clientWidth + 1);
+    //alert(width +' '+ height);
+    </script>
+
+
+
+
+
+
+
+
 <h1>Das erste nahtlose Kondom kommt aus Berlin</h1>
 <h3>Die Currywurst ist nicht die einzige Innovation aus der Hauptstadt. Auch Kondom, Pappteller und Faxgerät entstanden hier.</h3>
 <div class="fulltext">
