@@ -1,6 +1,6 @@
 $( document ).ready()
 
-
+/*
 var german_text = [Mehr, als, "46.000", Erfindungen, meldeten, die, Deutschen, vergangenes, Jahr, beim, Patent, und, 
 Markenamt, an, "1159", davon, stammen, aus, Berlin, und, Brandenburg, Das, Buch, Genial, Erfindungen, aus, Berlin, 
 und, Brandenburg, fasst, von, A, wie, Augenspiegel, bis, Z, wie, Zucker, aus, Rüben, die, Entdeckungen, aus, der, 
@@ -84,7 +84,7 @@ Die, Berliner, trauten, ihren, Augen, nicht, Akkurat, aufgereiht, klebten, die, 
 Säulen, und, "50", Pumpenumhüllungen, Der, Verleger, und, Druckereibesitzer, Ernst, Litfaß, liebte, die, preußische, Ordnung, und, 
 überzeugte, den, Polizeipräsidenten, Karl, Ludwig, Friedrich, von, seinen, runden, Errichtungen, Sie, sollten, der, unkontrollierten, 
 "Anschlagwut",  Herr, werden, Der, Verleger, wurde, kurzerhand, zum, "Säulenheiligen", ernannt, Heute, gibt, es, über, "50.000", 
-Litfaßsäulen, "in", Deutschland, ];
+Litfaßsäulen, "in", Deutschland, ]; */
 
 
 var english_text = [More, than, "46,000", inventions, registered, by, the, Germans, last, year, at, the, and,
