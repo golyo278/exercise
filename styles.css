@@ -29,6 +29,7 @@ h3{
 } */
 
 .translation{
+	position: fixed;
 	color:purple; 
 	z-index: 200;
 
