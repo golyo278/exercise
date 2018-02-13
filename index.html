@@ -42,6 +42,15 @@
             window.scrollBy(0,objInfo.h);
         }
         setTimeout('unHighlight()', highlightSpeed);
+
+				// *** gets an array of all elements with the class name "translation"
+				var x = document.getElementsByClassName("translation");
+				// gets the first element in the array (there is only one anyway) and
+				// concatenates the text inside it to the text in the english_text array
+				// at index i
+				// we can just reuse the i variable because it's already tracking
+				// how many times a word has been highlighted
+				x[0].innerHTML = x[0].innerHTML + " " + english_text[i];
     }
 
     function unHighlight (){
@@ -60,6 +69,7 @@
        */ 
       init : function() { 
        CIRRO.wrapWordsWithSpan(); 
+			 highlightElements();
       },   
       /** 
        * Replace the contents of each paragraph with span wrapped words 
@@ -87,8 +97,12 @@
     </script>
     </head>
     <body id="body">
-    <input type="onload" onload="" ="highlightElements();"  />
-   <!-- <input type="button" onclick="highlightElements();" value="Get selected elements" /> --> 
+
+			<!-- *** an empty element (could be anything but I've used an h5) -->
+			<!-- the class is set to "translation" so our code above can reference it -->
+			<h5 class="translation"></h5>
+
+   <!-- <input type="button" onclick="highlightElements();" value="Get selected elements" /> -->
     <h1>Das erste nahtlose Kondom kommt aus Berlin</h1>
 <h3>Die Currywurst ist nicht die einzige Innovation aus der Hauptstadt. Auch Kondom, Pappteller und Faxgerät entstanden hier.</h3>
 <p> Mehr als 46.000 Erfindungen meldeten die Deutschen vergangenes Jahr beim Patent- und Markenamt an. 1159 davon stammen aus Berlin und Brandenburg. Das Buch "Genial – Erfindungen aus Berlin und Brandenburg" fasst von A wie "Augenspiegel" bis Z wie "Zucker aus Rüben" die Entdeckungen aus der Region seit dem 18. Jahrhundert zusammen. Eine Spurensuche.</p>
