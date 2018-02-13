@@ -43,12 +43,13 @@ h3{
 } */
 
 .translation{
-	font: /*"DinBold",*/ sans-serif;
+	font-family: "DinBold", sans-serif;
 	position: fixed;
 	color:red; 
  	z-index: -1; 
- 	font-size:17px;
+ 	font-size:100px;
  	top:2px;
+ 	text-align: center;
 
 
 }
