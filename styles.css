@@ -6,7 +6,7 @@ body{
     font-size: 22pt;
 }
 
-@font-face {
+/*@font-face {
     font-family: "Din";
 	src: url("../fonts/DINOT.woff"); }
 
@@ -14,7 +14,7 @@ body{
 @font-face {
     font-family: "DinBold";
     font-weight: bold;
-    src: url("../fonts/DINOT-Bold.woff"); 
+    src: url("../fonts/DINOT-Bold.woff"); */
 }
 h1{
 	font-size: 30pt;
@@ -37,8 +37,8 @@ h3{
 } */
 
 .translation{
-	font-family: /*"DinBold",*/ sans-serif;
-	position: fixed, top;
+	font: /*"DinBold",*/ sans-serif;
+	position: fixed;
 	color:red; 
  	z-index: -1; 
  	font-size:175px;
