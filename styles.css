@@ -22,11 +22,11 @@ h1{
 }
 h2{
 	font-size: 26pt;
-	line-height: 0px;
+	line-height: 26px;
 }
 h3{
 	font-size: 20pt;
-	line-height: 0px;
+	line-height: 20px;
 }
 
 /*h5{
@@ -42,6 +42,7 @@ h3{
 	color:red; 
  	z-index: -1; 
  	font-size:175px;
+ 	top:0px;
 
 
 }
