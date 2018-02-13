@@ -1,9 +1,9 @@
 body{ 
-    font-family: "Din", sans-serif;
+    font-family: /*"Din",*/ sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
-    font-size: 18pt;
+    font-size: 22pt;
 }
 
 @font-face {
@@ -37,7 +37,7 @@ h3{
 } */
 
 .translation{
-	font-family: "DinBold";
+	font-family: /*"DinBold",*/ sans-serif;
 	position: fixed, top;
 	color:red; 
  	z-index: -1; 
