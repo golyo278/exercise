@@ -22,11 +22,11 @@ h1{
 }
 h2{
 	font-size: 26pt;
-	padding: 0;
+	line-height: 0px;
 }
 h3{
 	font-size: 20pt;
-	padding: 0;
+	line-height: 0px;
 }
 
 /*h5{
