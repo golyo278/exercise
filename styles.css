@@ -57,6 +57,14 @@ h5{
 	-webkit-margin-after:0em;
 } 
 
+a{
+	top: 2px;
+	vertical-align: middle;
+	position: relative;
+	text-align: center;
+
+}
+
 /*.translation{
 	font-family: "DinBold", sans-serif;
 	position: fixed;
