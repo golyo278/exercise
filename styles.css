@@ -35,6 +35,7 @@ h3{
 
 .translation{
 	font-family: DinBold;
+	position: fixed;
 	color:red; 
  	z-index: 200; 
  	font-size:300px;
