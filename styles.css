@@ -3,11 +3,12 @@ body{
 	padding-right: 30%;
 	padding-top: 30%;
 	padding-bottom: 30%;
-	margin-left: 60px;
-	margin-right: 60px;
+	margin-left: 2px;
+	margin-right: 2px;
     font: Din Regular;
     font-size: 18pt;
-    z-index: 
+   width: 200px;
+
 
 }
 * @font-face {
@@ -30,7 +31,8 @@ h3{
 h5{
  	color:red; 
  	z-index: 200; 
- 	font-size: 100px
+ 	width: 200px;
+ 	left: 220px;
 }
 	
 
