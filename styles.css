@@ -1,21 +1,14 @@
 body{ 
-	padding-left: 30%;
-	padding-right: 30%;
-	padding-top: 30%;
-	padding-bottom: 30%;
-	margin-left: 2px;
-	margin-right: 2px;
     font: Din Regular;
     font-size: 18pt;
-   width: 200px;
 
 
 }
 * @font-face {
-    font-family: 'Din Bold'; /*a name to be used later*/
-    src: url('DINOT-Bold.otf'); /*URL to font*/
-    font-family: 'Din Regular'; /*a name to be used later*/
-    src: url('DINOT.otf'); /*URL to font*/
+   /* font-family: 'Din Bold'; /*a name to be used later*/
+   /* src: url('DINOT-Bold.otf'); /*URL to font*/
+   font-family: 'Din Regular'; /*a name to be used later*/
+   src: url('DINOT.otf'); /*URL to font*/
 
 }
 h1{
@@ -37,6 +30,7 @@ h3{
 
 .translation{
 	color:purple; 
+	z-index: 200;
 
 }
 	
