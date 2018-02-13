@@ -28,11 +28,16 @@ h3{
 	font-size: 20pt;
 }
 
-h5{
+/*h5{
  	color:red; 
  	z-index: 200; 
  	width: 200px;
  	left: 220px;
+} */
+
+.translation{
+	color:purple; 
+
 }
 	
 
