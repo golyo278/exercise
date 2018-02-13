@@ -24,16 +24,19 @@ h1{
 	font-size: 42pt;
 	font-weight: bold;
 	line-height: 52px;
+	margin-bottom: 12px;
 }
 h2{
 	font-size: 26pt;
 	font-weight: bold;
 	line-height: 36px;
+	margin-bottom: 2px;
 }
 h3{
 	font-size: 26pt;
 	font-weight: bold;
 	line-height: 36px;
+	margin-bottom: 2px;
 }
 
 /*h5{
@@ -52,7 +55,7 @@ h3{
  	top:2px;
  	text-align: center;
  	vertical-align: middle;
- 	
+
 
 
 
