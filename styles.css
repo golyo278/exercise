@@ -9,13 +9,13 @@ body{
 
 @font-face {
     font-family: Din;
-    src: url("path/DINOT.otf") format("opentype");
-}
+	src: url("../fonts/DINOT.otf"); }
+
 
 @font-face {
     font-family: DinBold;
     font-weight: bold;
-    src: url("path/DINOT-Bold.otf") format("opentype");
+    src: url("../fonts/DINOT-Bold.otf"); 
 }
 h1{
 	font-size: 30pt;
