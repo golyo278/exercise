@@ -30,8 +30,9 @@ h3{
 
 .translation{
 	position: fixed;
-	color:purple; 
-	z-index: 200;
+	color:red; 
+ 	z-index: 200; 
+ 	size:80px;
 
 }
 	
