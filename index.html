@@ -94,13 +94,22 @@
            paragraphs[j].innerHTML = arr.join(" "); 
            //alert(paragraphs[j].innerHTML); 
            j++
-           window.scrollBy(0,objInfo.h);
+          var objInfo = new Object();
+        var nxtObjInfo = new Object();
+        objInfo = getPositionOfElement(spans[i]);
+        nxtObjInfo = getPositionOfElement(spans[i+1]);
+        var amt = (objInfo.x + objInfo.w + 50);
+        console.log(amt);
+        console.log(width);
+        if(amt >= width && objInfo.x > nxtObjInfo.x){
+            console.log('SCROLL ' +objInfo.h+ ' ');
+            window.scrollBy(0,objInfo.h);
        }
       } 
      }; 
     }(); 
     window.onload = CIRRO.init; 
-    window.scrollBy(0,objInfo.h);
+
 
     </script>
     </head>
