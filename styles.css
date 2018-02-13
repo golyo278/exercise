@@ -2,8 +2,12 @@ body{
 	padding: 30%px;
     font-family: helvetica, sans-serif;
     font-size: 18pt;
-}
 
+}
+@font-face {
+    font-family: 'Din'; /*a name to be used later*/
+    src: url('http://domain.com/fonts/font.ttf'); /*URL to font*/
+}
 h1{
 	font-size: 30pt;
 }
@@ -15,7 +19,7 @@ h3{
 }
 
 h5{
- 	background-color:red; 
+ 	color:red; 
  	z-index: 200; 
  	font-size: 100px
 }
