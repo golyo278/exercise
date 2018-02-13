@@ -5,13 +5,13 @@ body{
 
 @font-face {
     font-family: Din;
-	src: url("../fonts/DINOT.otf"); }
+	src: url("../fonts/DINOT.woff"); }
 
 
 @font-face {
     font-family: DinBold;
     font-weight: bold;
-    src: url("../fonts/DINOT-Bold.otf"); 
+    src: url("../fonts/DINOT-Bold.woff"); 
 }
 h1{
 	font-size: 30pt;
