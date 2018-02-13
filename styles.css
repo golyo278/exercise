@@ -52,9 +52,11 @@ h5{
  	text-align: center;
  	vertical-align: middle;
  	width:90%;
- 	margin-top: 2px;
+ 	float: right;
+  	left: -50%; /* or right 50% */;
+ 	/*margin-top: 2px;
  	-webkit-margin-before:0em;
-	-webkit-margin-after:0em;
+	-webkit-margin-after:0em;*/
 } 
 
 /*.translation{
