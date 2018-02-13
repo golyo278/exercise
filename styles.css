@@ -1,12 +1,17 @@
 body{ 
-	padding: 30%px;
-    font-family: helvetica, sans-serif;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-top: 30%;
+	padding-bottom: 30%;
+    
     font-size: 18pt;
 
 }
 @font-face {
-    font-family: 'Din'; /*a name to be used later*/
-    src: url('http://domain.com/fonts/font.ttf'); /*URL to font*/
+    font-family: 'Din Black'; /*a name to be used later*/
+    src: url('DIN Black'); /*URL to font*/
+    font-family: 'Din Regular'; /*a name to be used later*/
+    src: url('DIN Regular'); /*URL to font*/
 }
 h1{
 	font-size: 30pt;
