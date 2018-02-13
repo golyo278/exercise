@@ -40,14 +40,20 @@ h3{
 	margin-bottom: 2px;
 }
 
-/*h5{
- 	color:red; 
- 	z-index: 200; 
- 	width: 200px;
- 	left: 220px;
-} */
+h5{
+ 	font-family: "DinBold", sans-serif;
+	position: fixed;
+	color:red; 
+ 	z-index: -1; 
+ 	font-size: 225px;
+ 	top:25%;
+ 	text-align: center;
+ 	vertical-align: middle;
+ 	margin-top: 2px;
 
-.translation{
+} 
+
+/*.translation{
 	font-family: "DinBold", sans-serif;
 	position: fixed;
 	color:red; 
@@ -57,12 +63,12 @@ h3{
  	text-align: center;
  	vertical-align: middle;
  	margin-top: 2px;
- 	margin-left: 25%;
+ 	/*margin-left: 25%; */
 
 
 
 
-}
+}*/
 	
 
 }
