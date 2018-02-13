@@ -6,13 +6,15 @@ body{
 	margin-left: 300px;
     font: Din Regular;
     font-size: 18pt;
+    z-index: 
 
 }
-@font-face {
-    font-family: 'Din Black'; /*a name to be used later*/
-    src: url('DIN Black'); /*URL to font*/
+* @font-face {
+    font-family: 'Din Bold'; /*a name to be used later*/
+    src: url('DINOT-Bold.otf'); /*URL to font*/
     font-family: 'Din Regular'; /*a name to be used later*/
-    src: url('DIN Regular'); /*URL to font*/
+    src: url('DINOT.otf'); /*URL to font*/
+
 }
 h1{
 	font-size: 30pt;
