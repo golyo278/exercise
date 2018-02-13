@@ -18,14 +18,17 @@ body{
 }
 h1{
 	font-size: 30pt;
+	font-weight: bold;
 	line-height: 0px;
 }
 h2{
 	font-size: 26pt;
+	font-weight: bold;
 	line-height: 26px;
 }
 h3{
 	font-size: 20pt;
+	font-weight: bold;
 	line-height: 20px;
 }
 
