@@ -66,6 +66,9 @@ a{
 	-webkit-margin-before:0em;
 	-webkit-margin-after:0em;
 	z-index:400;
+	padding:0px;
+	margin: 0px;
+	border: 0px;
 
 
 }
