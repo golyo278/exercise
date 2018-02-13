@@ -1,5 +1,5 @@
 body{ 
-    font-family: "Din";
+    font-family: "Din", sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
@@ -38,7 +38,7 @@ h3{
 
 .translation{
 	font-family: "DinBold";
-	position: fixed top;
+	position: fixed, top;
 	color:red; 
  	z-index: -1; 
  	font-size:175px;
