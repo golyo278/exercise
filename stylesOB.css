@@ -1,24 +1,23 @@
 body{ 
-	margin: 100px;
-    font-family: "DinBold", sans-serif;
-	font-weight: normal;
-	font-style: normal;
-	text-rendering: optimizeLegibility;
-    font-size: 22pt;
-    text-align: justify;
+margin: 100px;
+    font-family: "Din", sans-serif;
+font-weight: normal;
+font-style: normal;
+text-rendering: optimizeLegibility;
+    font-size: 22pt;
+    text-align: justify;
 }
 
 @font-face {
-    font-family: "Din";
-	src: url("fonts/DINOT.woff"); }
+    font-family: "Din";
+src: url("fonts/DINOT.woff"); }
 
 
 @font-face {
-    font-family: "DinBold";
-    font-weight: bold;
-    src: url("fonts/DINOT-Bold.woff"); 
+    font-family: "DinBold";
+    font-weight: bold;
+    src: url("fonts/DINOT-Bold.woff"); 
 }
-
 h1{
 	font-size: 42pt;
 	font-weight: bold;
@@ -43,7 +42,7 @@ h3{
 } */
 
 .translation{
-	font: /*"DinBold",*/ sans-serif;
+	font: /*"DinBold", sans-serif;
 	position: fixed;
 	color:red; 
  	z-index: -1; 
