@@ -90,6 +90,10 @@
            // Generate span's for each item/word in the array 
            for( var i = 0; i < arr.length; i++ ) { 
             arr[i] = "<span>" + arr[i] + "</span>"; 
+             console.log(width);
+        if(amt >= width && objInfo.x > nxtObjInfo.x){
+            console.log('SCROLL ' +objInfo.h+ ' ');
+            window.scrollBy(0,objInfo.h);
            }    
            paragraphs[j].innerHTML = arr.join(" "); 
            //alert(paragraphs[j].innerHTML); 
