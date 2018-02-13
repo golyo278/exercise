@@ -1,15 +1,18 @@
 body{ 
-    font-family: Din;
+    font-family: "Din";
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
     font-size: 18pt;
 }
 
 @font-face {
-    font-family: Din;
+    font-family: "Din";
 	src: url("../fonts/DINOT.woff"); }
 
 
 @font-face {
-    font-family: DinBold;
+    font-family: "DinBold";
     font-weight: bold;
     src: url("../fonts/DINOT-Bold.woff"); 
 }
@@ -34,7 +37,7 @@ h3{
 } */
 
 .translation{
-	font-family: DinBold;
+	font-family: "DinBold";
 	position: fixed;
 	color:red; 
  	z-index: -1; 
